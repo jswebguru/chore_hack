@@ -5,7 +5,7 @@
   "main": "server.js",
   "homepage": "./client/public/index.html",
   "engines": {
-    "node": "12.x"
+    "node": "12.16.1"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
